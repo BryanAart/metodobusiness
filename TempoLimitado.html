@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Como Ganhar Renda na Internet</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            background:#000;
+            color:#fff;
+            font-family:'Montserrat',sans-serif;
+            overflow-x:hidden;
+            position:relative;
+            min-height:100vh;
+        }
+
+        /* Fundo com fumaça */
+
+        body::before{
+            content:'';
+            position:fixed;
+            inset:0;
+            background:
+            radial-gradient(circle at 20% 30%, rgba(255,255,255,.06), transparent 30%),
+            radial-gradient(circle at 80% 50%, rgba(255,255,255,.05), transparent 25%),
+            radial-gradient(circle at 50% 80%, rgba(255,255,255,.04), transparent 30%);
+            filter:blur(30px);
+            animation: smoke 12s infinite alternate;
+            pointer-events:none;
+        }
+
+        @keyframes smoke{
+            from{
+                transform:translateY(0px);
+            }
+            to{
+                transform:translateY(-30px);
+            }
+        }
+
+        .paper{
+            position:fixed;
+            width:180px;
+            opacity:.18;
+            z-index:0;
+            filter:grayscale(100%);
+        }
+
+        .paper1{
+            top:80px;
+            left:-40px;
+            transform:rotate(-25deg);
+        }
+
+        .paper2{
+            bottom:80px;
+            left:-40px;
+            transform:rotate(20deg);
+        }
+
+        .paper3{
+            top:120px;
+            right:-40px;
+            transform:rotate(18deg);
+        }
+
+        .paper4{
+            bottom:100px;
+            right:-40px;
+            transform:rotate(-20deg);
+        }
+
+        .container{
+            position:relative;
+            z-index:10;
+            max-width:1200px;
+            margin:auto;
+            padding:40px 20px;
+            text-align:center;
+        }
+
+        .headline-top{
+            font-size:28px;
+            font-weight:600;
+            margin-bottom:10px;
+        }
+
+        .headline-main{
+            font-family:'Anton',sans-serif;
+            font-size:clamp(50px,8vw,110px);
+            line-height:0.95;
+            text-transform:uppercase;
+        }
+
+        .headline-main span{
+            color:#ffb400;
+            display:block;
+        }
+
+        .subheadline{
+            margin-top:25px;
+            font-size:22px;
+            color:#d9d9d9;
+        }
+
+        .subheadline strong{
+            color:#ffb400;
+        }
+
+        .video-wrapper{
+            margin-top:40px;
+            border-radius:20px;
+            overflow:hidden;
+            border:2px solid rgba(255,255,255,.15);
+            box-shadow:0 0 40px rgba(255,180,0,.15);
+        }
+
+        video{
+            width:100%;
+            display:block;
+        }
+
+        .cta-text{
+            margin-top:35px;
+            font-size:32px;
+            font-weight:700;
+        }
+
+        .cta-text span{
+            color:#ffb400;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:30px;
+            text-decoration:none;
+            background:linear-gradient(180deg,#ffcc00,#ff9f00);
+            color:#000;
+            font-size:32px;
+            font-weight:800;
+            padding:22px 55px;
+            border-radius:14px;
+            transition:.3s;
+            box-shadow:0 0 30px rgba(255,180,0,.5);
+        }
+
+        .btn:hover{
+            transform:scale(1.05);
+        }
+
+        .secure{
+            margin-top:20px;
+            color:#bdbdbd;
+            font-size:15px;
+        }
+
+        @media(max-width:768px){
+
+            .headline-top{
+                font-size:20px;
+            }
+
+            .subheadline{
+                font-size:18px;
+            }
+
+            .cta-text{
+                font-size:24px;
+            }
+
+            .btn{
+                width:100%;
+                font-size:24px;
+                padding:20px;
+            }
+
+            .paper{
+                display:none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Folhas laterais -->
+    <img class="paper paper1" src="https://cdn-icons-png.flaticon.com/512/3022/3022259.png">
+    <img class="paper paper2" src="https://cdn-icons-png.flaticon.com/512/3022/3022259.png">
+    <img class="paper paper3" src="https://cdn-icons-png.flaticon.com/512/3022/3022259.png">
+    <img class="paper paper4" src="https://cdn-icons-png.flaticon.com/512/3022/3022259.png">
+
+    <div class="container">
+
+        <div class="headline-top">
+            DESCUBRA COMO
+        </div>
+
+        <div class="headline-main">
+            GANHAR RENDA
+            <span>NA INTERNET</span>
+        </div>
+
+        <div class="subheadline">
+            Assista ao vídeo abaixo e descubra o
+            <strong>método que está mudando vidas.</strong>
+        </div>
+        
+        <div class="subheadline">
+            Somos +150 Mil alunos</strong>
+        </div> 
+
+        <div class="video-wrapper">
+            <video controls controlsList="nodownload">
+                <source src="MINI CURSO FACE ADS.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div class="cta-text">
+            ESTÁ PRONTO PARA TRANSFORMAR SUA VIDA?
+            <br>
+            <span>O PRIMEIRO PASSO COMEÇA AGORA!</span>
+        </div>
+
+        <a class="btn"
+           href="https://hotm.io/botvendedor"
+           target="_blank">
+            🚀 QUERO ACESSAR AGORA
+        </a>
+
+        <div class="secure">
+            🔒 Acesso 100% Seguro
+        </div>
+
+    </div>
+
+</body>
+</html>
